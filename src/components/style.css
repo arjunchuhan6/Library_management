@@ -1,0 +1,314 @@
+/* Styling Header component */
+.header-Div {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.header-Div img {
+    border-radius: 50px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links li {
+    list-style-type: none;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.nav-links li:hover {
+    cursor: pointer;
+    text-shadow: 1px 1px black;
+}
+
+/* Styling Home component */
+.welcome-div {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 0%;
+}
+
+.welcome-div-img {
+    background: url("https://softwaretested.com/wp-content/uploads/2020/05/Online-libraries.jpg");
+    background-repeat: no-repeat;
+    width: 75%;
+    height: 550px;
+    margin-left: 0%;
+}
+
+.welcome-div-text {
+    width: 40%;
+    height: 500px;
+    margin-left: 60px;
+
+}
+
+.welcome-div-text h3 {
+    text-align: center;
+    font-size: 4em;
+    background: -webkit-linear-gradient(#c09494, #220404);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.welcome-div-text p {
+    text-align: center;
+    font-size: 2em;
+}
+
+.book-categories-div h2 {
+    text-align: center;
+    font-size: 4em;
+    background: -webkit-linear-gradient(#c09494, #220404);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 5px;
+}
+
+.book-categories-div ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.book-categories-div a {
+    text-decoration: none;
+}
+
+.book-categories-div ul li {
+    list-style-type: none;
+    font-size: 3em;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: linear-gradient(  rgb(141, 207, 202), rgb(10, 76, 78));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.popular-books-div h2 {
+    text-align: center;
+    font-size: 4em;
+    background: -webkit-linear-gradient(#c09494, #220404);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 50px;
+}
+
+.popular-books-div a {
+    text-decoration: none;
+    color: black;
+}
+
+.popular-books-div ul {
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+}
+
+.popular-books-div li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.popular-books-div li button{
+    border-radius: 5px;
+    margin: 0%;
+    padding: 5px;
+}
+
+.popular-books-div li button:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px black;
+}
+
+/* Styling BookDetails component */
+.bookDetailTitle{
+    text-align: center;
+    font-size: 3em;
+    background: -webkit-linear-gradient(#c09494, #220404);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bookDetailDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0%;
+}
+
+.bookDetailpara {
+    font-size: 2em;
+    margin-top: -2%;
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+.bookDetailpara button{
+    border-radius: 5px;
+    margin: 2px;
+    padding: 5px;
+}
+
+.bookDetailpara button:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px black;
+}
+
+/* Styling BrowseBooks component */
+.browsebookdiv h2 {
+    text-align: center;
+    font-size: 4em;
+    background: -webkit-linear-gradient(#c09494, #220404);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 50px;
+}
+
+.browsebookdiv ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.browsebookdiv a {
+    text-decoration: none;
+}
+
+.browsebookdiv ul li {
+    list-style-type: none;
+    font-size: 3em;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: linear-gradient(  rgb(141, 207, 202), rgb(10, 76, 78));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.browseinputdiv {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.browseinput {
+    border-radius: 50px;
+    margin-right: 5px; 
+    width: 500px;
+    height: 30px;
+    padding: 5px;
+    font-size: 1.3em;
+}
+
+.browsebutton{
+    border-radius: 5px;
+    width: 70px;
+    height: 41px;
+    padding: 5px;
+}
+
+.browsebutton:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px black;
+}
+
+.browsediv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 100px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.browsediv button {
+    border-radius: 5px;
+    width: 70px;
+    height: 40px;
+    padding: 5px;
+}
+
+.browsediv button:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px black;
+}
+
+/* Stlying AddBook component */
+.addBookDiv h1{
+    text-align: center;
+    background: -webkit-linear-gradient(#c09494, #220404);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.2em;
+}
+
+.formDiv {
+    border: 1px solid black;
+    box-shadow: 2px 2px black;
+    width: 60%;
+    margin-left: 20%;
+    padding: 20px;
+}
+
+.formDiv label{
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+.formDiv input{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 0.7em;
+}
+
+.formDiv select {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 0.7em;
+}
+
+.formDiv button {
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.formDiv button:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px black;
+}
+
+/* Styling Error component */
+.errDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.errDiv h2{
+    font-size: 2em;
+}
+
+.errDiv p{
+   margin: 0%;
+   font-size: 1.2em;
+}
