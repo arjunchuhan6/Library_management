@@ -12,7 +12,7 @@ function Home() {
         <div className="welcome-div-img"></div>
         <div className="welcome-div-text">
           <h3>Welcome</h3>
-          <p>Hello, Welcome to a world of endless possibilities. Explore our selection of books and services crafted to enrich your life.</p>
+          <p>Hello, Welcome to Online library management system. Explore our selection of books and services crafted to enrich your life.</p>
         </div>
       </div>
       <div className="book-categories-div">
